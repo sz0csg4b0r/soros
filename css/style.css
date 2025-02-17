@@ -1,4 +1,5 @@
 #container {
+<<<<<<< HEAD
     margin: 0px 300px 0px 300px;
 }
 
@@ -20,4 +21,96 @@ h2{
     width: 200px;
     height: 150px;
     float: right;
+=======
+  background-color: lightgray;
+  padding: 10px;
+  color: darkslategrey;
+  font-weight: 540;
+  margin: 0px 350px 0px 350px;
+}
+
+#headers {
+  height: 65px;
+  text-indent: 30px;
+}
+
+h1,
+h2 {
+  font-size: 23px;
+  line-height: 0.5rem;
+}
+
+h2 {
+  float: right;
+}
+
+#firsttextcontainer img {
+  width: 200px;
+  border-radius: 10px;
+  text-indent: 30px;
+  height: 200px;
+  float: right;
+}
+
+#firsttext {
+  text-align: justify;
+  width: 620px;
+  line-height: 120%;
+  text-indent: 30px;
+}
+
+#freemail img {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+#sulinet img {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+#phare img {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+#phare,
+#sulinet,
+#freemail {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gray;
+  text-align: justify;
+  height: 120px;
+  padding: 10px;
+  line-height: 150%;
+  background-color: rgb(247, 183, 183);
+}
+
+body {
+  font-size: 17px;
+}
+
+
+.text{
+text-align: left;
+overflow: hidden;
+}
+
+.bold{
+    font-weight: bolder;
+
+}
+
+
+.blue_and_bold{
+    color: blue;
+    font-weight: bolder;
+>>>>>>> dbcd980 (fafadfasdfbuild-webpage)
 }
